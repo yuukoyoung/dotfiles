@@ -1,0 +1,13 @@
+[user]
+	name = yuuko
+	email = yuukoyoung@outlook.com
+[alias]
+	hist = log --pretty=format:'%C(red)%h%Creset -- %C(bold blue)%an:%Creset %s (%C(green)%ad%Creset)%C(bold yellow)%d%Creset' --date=relative --graph
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[core]
+	safecrlf = warn
+	eol = lf
+	autocrlf = input
